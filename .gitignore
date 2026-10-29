@@ -1,0 +1,28 @@
+# ==========================================
+# uv & Entornos Virtuales
+# ==========================================
+# Entorno virtual creado localmente por `uv venv`
+.venv/
+
+# Cache interna de ejecuciones de uv (instalaciones, descargas)
+.uv/
+
+# ==========================================
+# Archivos temporales y de ejecución de Python
+# ==========================================
+# Bytecode compilado de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuciones y builds locales (si construyes paquetes)
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Variables de entorno y secretos
+# ==========================================
+.env
+.env.local
